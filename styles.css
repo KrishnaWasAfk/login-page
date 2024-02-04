@@ -1,0 +1,74 @@
+body{
+    background-image: url(./nature-scenery-4k-s4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    background-color: crimson;
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 10);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.login{
+    font-family: Kanit;
+    text-align: center;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.text{
+    text-align: center;
+    border-radius: 15px;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 12px;
+    font-family: kanit;
+}
+
+.forgot{
+    text-align: center;
+    font-family: Kanit;
+    text-decoration: none;
+}
+
+.submit{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:gold;
+    margin-top: 12px;
+    box-shadow: 0 0.1px 3px;
+    font-family: kanit;
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+
+    .container {
+        width: 330px;
+        height: 280px;
+    }
+    .text {
+        width: 220px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    .submit {
+        height: 40px;
+        border-radius: 20px;
+    }
+    *{
+        margin-bottom: 10px;
+    }
+}
+
